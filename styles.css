@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-color{
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin-top: 2%;
+    
+}
+
+header div {
+    display: inline;
+    margin: 10%;
+}
+
+header div h1{
+    font-size: 20px;
+    display: inline;
+    
+}
+
+#links{
+    float: right;
+    margin-top: 0%;
+    margin-right: 4%;
+    width: 40%;
+    
+    
+}
+
+#links a{
+    padding: 5%;
+    text-decoration: none;
+    color: white;
+}
+
+#links #button{
+    display: inline;
+    border: 1px solid white;
+    padding: 1% 8%;
+    margin-left: 5%;
+
+}
+
+#Banner{
+    margin-top: 7%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    width: 90%;
+    float: center;
+}
+
+#text-banner{
+    width: 90%;
+    height: 100%;
+    
+}
+
+
+#text-banner h2{
+  font-size: 77px;
+}
+
+#text-banner p{
+    font-size: 18px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+#text-banner a{
+    color: black;
+    background-color: rgb(235, 129, 164);
+    padding: 2% 8%;
+    margin-top: 15%;
+    text-decoration: none;
+}
+
+#img-banner{
+     width: 40%;
+     
+}
+
+#img-banner img{
+    width: 170%;
+    
+}
+
+#choose-backgroud{
+    margin: 10px auto;
+    text-align: center;
+}
+
+#choose-backgroud a{
+    margin-left: 4px;
+}
+
+
+#choose-backgroud #laranja{
+    color: black;
+    background-color: orangered;
+    padding: 3px;
+    border: 1px solid orangered;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#choose-backgroud #verde{
+    color: black;
+    background-color: rgb(56, 224, 22);
+    padding: 3px;
+    border: 1px solid rgb(56, 224, 22);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#choose-backgroud #Vermelho{
+    color: black;
+    background-color: rgb(238, 11, 11);
+    padding: 3px;
+    border: 1px solid rgb(238, 11, 11);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#choose-backgroud p{
+    text-align: center;
+}
+
+
+#Mural{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+form input[type="text"]{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+    margin: 1%;
+}
+
+#Postar{
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    padding: 6px;
+    background-color: rgb(235, 129, 164);
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#Postar:hover{
+    background-color: rgb(245, 45, 111);
+    transition: 20ms;
+    cursor: pointer;
+    height: 8%;
+}
+
+footer{
+    width: 99,9%;
+    height: 12%;
+    text-align: center;
+}
+
+footer #Creditos{
+    margin-bottom: 0%;
+    padding: 1% 8%;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: rgb(235, 129, 164);
+}
+
+footer #Creditos:hover{
+    background-color: rgb(245, 45, 111);
+    transition: 20ms;
+    cursor: pointer;
+    height: 60%;
+}
+.backgound-laranja{
+    background-color: orangered;
+    color: black;
+}
+
+.backgound-verde{
+ background-color: green;   
+}
+
+.backgound-vermelho{
+    background-color: red;   
+}
+
+
+#area-modal{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.7);
+    opacity: 0.6px;
+    position: fixed;
+    top: 45%;
+    left: 70px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#area-modal.actived{
+    opacity: 1;
+    visibility: visible;
+}
+
+#modal{
+    
+    border: 2px solid rgba(105, 102, 102, 0.521);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(105, 102, 102, 0.521);
+}
+#modal h4{
+    padding: 10px;
+ }
+
+#modal p{
+    padding: 2px;
+
+}
+
+#close-modal{
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 18px;
+}
